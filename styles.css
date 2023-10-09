@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#canvas {
+  background-color: black;
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
