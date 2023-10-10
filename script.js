@@ -7,7 +7,7 @@ const world = engine.world;
 world.gravity.y = 0;
 
 // Create white ball
-const whiteBall = Bodies.circle(800, 300, 20, {
+const whiteBall = Bodies.circle(800, 200, 20, {
     friction: 0.005,
     restitution: 0.5,
     label: 'whiteBall',
@@ -45,7 +45,7 @@ const randomHSLAColor = () => {
 const balls = [];
 for (let i = 0; i < 5; i++) {
     const x = Math.random() * 480 + 490;
-    const y = 460;
+    const y = 400;
     const radius = 20;
     const ball = Bodies.circle(x, y, radius, {
         friction: 0.005,
