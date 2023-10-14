@@ -43,8 +43,8 @@ const randomHSLAColor = () => {
 
 // Create colored balls
 const balls = [];
-for (let i = 0; i < 5; i++) {
-    const x = Math.random() * 480 + 490;
+for (let i = 0; i < 7; i++) {
+    const x = Math.random() * 640 + 480;
     const y = 400;
     const radius = 20;
     const ball = Bodies.circle(x, y, radius, {
